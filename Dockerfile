@@ -33,6 +33,7 @@ RUN yum -y install \
     php-zip \
     php-intl \
     php-bcmath \
+    php-pecl-xdebug \
     php-sodium
 
 
