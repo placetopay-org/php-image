@@ -1,7 +1,7 @@
 FROM centos:centos7
 
 # Maintainer
-MAINTAINER "John Edisson Ortiz <john.ortiz@placetopay.com>"
+MAINTAINER "Diego Calle <diego.calle@placetopay.com>"
 
 # Mandatory packages
 RUN yum -y update && yum -y install epel-release yum-utils
@@ -34,6 +34,7 @@ RUN yum -y install \
     php-intl \
     php-bcmath \
     php-pecl-xdebug \
+    php-gmp \
     php-sodium
 
 
